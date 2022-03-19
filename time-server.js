@@ -13,5 +13,4 @@ const server = net
       year + "-" + Month + "-" + day + " " + Hour + ":" + minute + "\n";
     socket.write(data);
     socket.end();
-  })
-  .listen(Number(port));
+  }).listen(Number(port));
